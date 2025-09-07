@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <title>Kimchi Diamond - លក់ពេជ្រ Mobile Legends</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💎 Kimchi Diamond</h1>
+    <p>ទិញពេជ្រ Mobile Legends ឆាប់ ៥-១៥ នាទី</p>
+  </header>
+
+  <section class="menu">
+    <h2>📋 តារាងតម្លៃ</h2>
+    <div class="card">
+      <span>50 💎</span>
+      <span>2 000 ៛</span>
+      <button onclick="order(50,2000)">ទិញ</button>
+    </div>
+    <div class="card">
+      <span>250 💎</span>
+      <span>9 500 ៛</span>
+      <button onclick="order(250,9500)">ទិញ</button>
+    </div>
+    <div class="card">
+      <span>500 💎</span>
+      <span>18 000 ៛</span>
+      <button onclick="order(500,18000)">ទិញ</button>
+    </div>
+    <div class="card">
+      <span>1000 💎</span>
+      <span>35 000 ៛</span>
+      <button onclick="order(1000,35000)">ទិញ</button>
+    </div>
+  </section>
+
+  <section class="form" id="orderForm" style="display:none">
+    <h2>📤 បញ្ជាទិញ</h2>
+    <input type="text" id="gameId" placeholder="Game ID">
+    <input type="text" id="serverId" placeholder="Server ID">
+    <input type="text" id="abaRef" placeholder="ABA Ref Number">
+    <button onclick="submitOrder()">បញ្ជាទិញឥឡូវ</button>
+  </section>
+
+  <footer>
+    <p>មានបញ្ហា? <a href="https://www.facebook.com/share/16pi7vrfxg" target="_blank">inbox Facebook</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
